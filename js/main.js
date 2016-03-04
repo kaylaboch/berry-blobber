@@ -56,9 +56,9 @@ var writeBerries = function (berries) {
     document.write('<dt>Carbs</dt>');
     document.write('<dd>' + berry.carbs + ' g</dd>');
     document.write('<dt>Protien</dt>');
-    document.write('<dd>' + berry.protien + ' g</dd>')
-  })
-}
+    document.write('<dd>' + berry.protien + ' g</dd>');
+  });
+};
 
 // ##########################################################
 // START DO NOT CHANGE ZONE
