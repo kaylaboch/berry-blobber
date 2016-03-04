@@ -37,25 +37,27 @@ var redCurrant = {
 // Write your function here, name it `writeBerries`
 var writeBerries = function (berries) {
   document.write('<h1>Berries</h1>');
-  document.write('<h2>berry.name</h2>');
-  document.write('<dl>');
-  document.write('<dt>Grows on a shrub?</dt>');
-  document.write('<dd>');
 
-if (berries.onShrub) {
-  document.write('yes');
-}
-else {
-  document.write('no');
-}
+  berries.forEach(function (berry);
+    document.write('<h2>berry.name</h2>');
+    document.write('<dl>');
+    document.write('<dt>Grows on a shrub?</dt>');
+    document.write('<dd>');
 
-document.write('</dd>');
-document.write('<dt>Energy</dt>');
-document.write('<dd>' + berry.energy[0] 'kj</dd>');
-document.write('<dt>Carbs</dt>');
-document.write('<dd>' + berry.carbs 'g</dd>');
-document.write('<dt>Protien</dt>');
-document.write('')
+    if (berry.onShrub) {
+      document.write('yes');
+    } else {
+      document.write('no');
+    }
+
+    document.write('</dd>');
+    document.write('<dt>Energy</dt>');
+    document.write('<dd>' + berry.energy + ' kj' '</dd>');
+    document.write('<dt>Carbs</dt>');
+    document.write('<dd>' + berry.carbs + ' g' + '</dd>');
+    document.write('<dt>Protien</dt>');
+    document.write('<dd>' + berry.protien + ' g' + '</dd>')
+  })
 }
 
 // ##########################################################
