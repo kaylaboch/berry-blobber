@@ -52,11 +52,11 @@ var writeBerries = function (berries) {
 
     document.write('</dd>');
     document.write('<dt>Energy</dt>');
-    document.write('<dd>' + berry.energy + ' kj' + '</dd>');
+    document.write('<dd>' + berry.energy + ' kj</dd>');
     document.write('<dt>Carbs</dt>');
-    document.write('<dd>' + berry.carbs + ' g' + '</dd>');
+    document.write('<dd>' + berry.carbs + ' g</dd>');
     document.write('<dt>Protien</dt>');
-    document.write('<dd>' + berry.protien + ' g' + '</dd>')
+    document.write('<dd>' + berry.protien + ' g</dd>')
   })
 }
 
